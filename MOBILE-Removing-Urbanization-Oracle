@@ -9,14 +9,9 @@
 
 ## Summary
 
-One paragraph explanation of the proposal.
-
 This Helium Improvement Proposal (HIP) discusses how Oracle Boosting rewards are calculated and removes the Urbanization oracle:
 
-Urbanization Oracle - The urbanization orcle is useless for the Mobile Subdao and doesn't help the growth of the mobile network in "non-urban" but 
-                      growing towns that need this technology and hinders growth of the network in towns that are growing faster then the given 
-                      dataset is updated which is currently used to determine "urbanization" which currently uses the United States Census data 
-                      that is updated every 10 years and is already 4 years old as of the passing of HIP 103.
+- Urbanization Oracle - discourages deployments in non-urbanized areas like small towns that are growing faster then the current dataset provides.
 
 ## Motivation
 
@@ -33,6 +28,12 @@ Urbanization Oracle - The urbanization orcle is useless for the Mobile Subdao an
   watching the HIP repository or even directly active in the Helium Community chat channels.
 
 ## Detailed Explanation
+
+The urbanization orcle is useless for the Mobile Subdao and doesn't help the growth of the mobile network in "non-urban" but 
+growing towns that need this technology and hinders growth of the network in towns that are growing faster then the given 
+dataset is updated which is currently used to determine "urbanization" which currently uses the United States Census data 
+that is updated every 10 years and is already 4 years old as of the passing of HIP 103.
+
 
 - Introduce and explain new concepts.
 - It should be reasonably clear how the proposal would be implemented.
